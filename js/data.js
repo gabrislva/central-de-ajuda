@@ -14,15 +14,15 @@ const CONTENT = {
     ordered: true,
     help: {
       title: "Ainda com problema?",
-      text: "Abra um chamado em <strong>[link do sistema de chamados]</strong> ou ligue para o ramal <strong>[0000]</strong>. Informe seu nome, o patrimônio do notebook e o que aparece na tela."
+      text: "Abra um chamado para a TI</strong>. Informe detalhadamente o problema e se possível envie prints."
     },
     items: [
       { id: "lento", cat: "Notebook", type: "Tutorial", title: "Notebook lento ou travando", sum: "Passos rápidos antes de abrir chamado.",
-        img: { src: "assets/img/taskmgr.svg", alt: "Gerenciador de Tarefas com o Chrome consumindo muita CPU e memória" },
-        steps: ["Salve seu trabalho e reinicie o notebook (fechar a tampa não conta).", "Abra o Gerenciador de Tarefas com <code>Ctrl + Shift + Esc</code> e ordene por CPU ou Memória.", "Feche o que você não está usando e desative apps de inicialização desnecessários.", "Confira o espaço livre no disco C:. Abaixo de 10% o sistema fica lento.", "Instale as atualizações em Configurações → Windows Update."],
-        note: "Continua lento? Abra um chamado dizendo quais programas estavam abertos." },
+        img: { src: "assets/img/taskmgr.svg", alt: "Gerenciador de Tarefas com aplicativos consumindo muita CPU e memória" },
+        steps: ["• Salve seu trabalho e reinicie o notebook (fechar a tampa não conta).", "• Abra o Gerenciador de Tarefas com <code>Ctrl + Shift + Esc</code> Clique em Usuários e ordene por CPU ou Memória, feche o que você não está usando e desative apps de inicialização desnecessários.", "• Em desempenho, confira o espaço livre no disco C:. Abaixo de 10% o sistema fica lento.", "• Confira se há atualizações pendentes de Sistema e Drivers Instale as atualizações em Configurações → Windows Update."],
+        note: "Continua lento? Abra um chamado dizendo quais programas estavam abertos e se possível envie um print do seu Gerenciador de Tarefas." },
       { id: "disco", cat: "Notebook", type: "Tutorial", title: "Liberar espaço em disco", sum: "Limpeza segura, sem apagar o que importa.",
-        steps: ["Abra Configurações → Sistema → Armazenamento.", "Ative o <strong>Sensor de Armazenamento</strong> para limpar temporários automaticamente.", "Esvazie a Lixeira e a pasta Downloads.", "Mova arquivos grandes para o OneDrive ou para o servidor de arquivos.", "Desinstale apenas programas que você mesmo instalou."] },
+        steps: ["Abra Configurações → Sistema → Armazenamento.", "Ative o <strong>Sensor de Armazenamento</strong> para limpar temporários automaticamente.", "• Esvazie a Lixeira e a pasta Downloads.", "• Pressone <code>Win + R</code> digite "temp" e clique em OK. Ao abrir a pasta temp exclua todos os arquivos da pasta. Faça o mesmo com "%temp%" , "• Desinstale apenas programas que você mesmo instalou."] },
       { id: "nao-liga", cat: "Notebook", type: "Tutorial", title: "Notebook não liga ou tela preta", sum: "Teste isto antes de levar ao suporte.",
         steps: ["Conecte o carregador original e espere 10 minutos.", "Desconecte pen drives, docking station e monitor externo.", "Segure o botão de energia por 20 segundos, solte e ligue de novo.", "Se a luz do carregador não acende, teste outra tomada.", "Tela preta com o notebook ligado? Tente <code>Win + Ctrl + Shift + B</code>."],
         note: "Sem sinal de vida: abra um chamado e leve o equipamento ao suporte." },
